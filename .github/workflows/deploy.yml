@@ -20,8 +20,8 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm
-      - name: Extract project
+        
+      - name: Extract projec
         run: unzip -o otiyot-kesumot-app-review-fixes.zip -d app
       - name: Install dependencies
         working-directory: app/otiyot-kesumot-app
